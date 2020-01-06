@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button_analyze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/butonper"
+            android:textColor="#FFFFFF"
+            android:onClick="activityAnalyze"
+            android:text="Analizar imagen" />
+
+        <Button
+            android:id="@+id/button_analyze_domain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/butonper"
+            android:textColor="#FFFFFF"
+            android:onClick="activityAnalyzeInDomain"
+            android:text="Reconocer famosos" />
+
+
+        <Button
+            android:id="@+id/button_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/butonper"
+            android:textColor="#FFFFFF"
+            android:onClick="activityDescribe"
+            android:text="Describir Imagen" />
+
+        <Button
+            android:id="@+id/button_recognize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/butonper"
+            android:textColor="#FFFFFF"
+            android:onClick="activityRecognize"
+            android:text="Reconocer texto" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04"
+            android:background="@drawable/butonper"
+            android:textColor="#FFFFFF"
+            android:onClick="activityHandwriting"
+            android:text="Reconocer texto escrito" />
+
+    </LinearLayout>
+
+</LinearLayout>
